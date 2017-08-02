@@ -1,12 +1,12 @@
-## TypeDANCE
+## TypeDance
 
-[live TypeDANCE](https://hobara.github.io/TypeDance/)
+[live TypeDance](https://hobara.github.io/TypeDance/)
 
 TypeDANCE is a single page interactive app, that visually let dancers move based on your command, so that users can enjoy letting dancers move in synchronicity with music. Built by JavaScript, jQuery and HTML/CSS.  
 
 ### Functionality & MVP  
 
-TypeDANCE will provide the following functionality to users:
+TypeDance will provide the following functionality to users:
 
 - [ ] Play/Pause/Restart/Mute music  
 - [ ] Select move-command from move options  
