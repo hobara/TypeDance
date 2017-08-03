@@ -5,19 +5,21 @@
     <title>TypeDance</title>
     <Link rel='icon' type='image' href='https://res.cloudinary.com/hobara/image/upload/v1501643215/typeD_fnozb1.png'>
     <Link rel='stylesheet' type='text/css' href='./assets/style/typeDance.css'>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
   </head>
   <body>
-    <div className='header-container'>
-      TypeDANCE
-    </div>
-    <div id='game-canvas'>
-      <canvas id='move-command-canvas'></canvas>
-    </div>
-    <div>
-      <canvas id='dance-board-canvas'></canvas>
-    <div>
-    <div>
-      Music Controller
+    <div id='type-dance'>
+      <div id='header-container'>
+        <p id='header-title'><< TypeDANCE >></p>
+      </div>
+      <div id='main-container'>
+        <div id='main-left'>
+          <canvas id='move-command-canvas'></canvas>
+        </div>
+        <div id='main-right'>
+          <canvas id='dance-board-canvas' width='600px', height='637px'></canvas>
+        </div>
+      </div>
     </div>
      <script type="text/javascript" src='./lib/bundle.js'></script>
   </body>
