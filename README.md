@@ -4,7 +4,7 @@
 
 TypeDANCE is an interactive dance app inspired by Dance Dance Revolution, built by using JavaScript, HTML/CSS and Sprite sheet canvas.
 
-![homescreen](./app/assets/images/start.png)
+![homescreen](./assets/images/start.png)
 
 ### Features & Implementation
 TypeDance uses Sprite sheet canvas to render images, and JavaScript to manipulate motions.
@@ -37,7 +37,7 @@ Creating different types of rhythm.
 }
 ```
 
-![homescreen](./app/assets/images/play.png)
+![homescreen](./assets/images/play.png)
 
 Event Listener checks to see if the rhythm matches with the command users typed, and update the motion of the dancers on the right.  
 ```document.addEventListener("keydown", (e) => {
