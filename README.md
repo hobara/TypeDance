@@ -11,7 +11,8 @@ TypeDance uses Sprite sheet canvas to render images, and JavaScript to manipulat
 Half of the page on the left is a command canvas that allows users to play with rhythms, and the other half is a dance canvas that renders the moves of commands that users typed.
 
 Creating different types of rhythm.
-``` javascript class Rhythm {
+``` javascript rhythm.js
+class Rhythm {
 constructor(canvas, ctx, x, y) {
   this.canvas = canvas;
   this.ctx = ctx;
@@ -40,22 +41,23 @@ drawRhythm() {
 ![homescreen](./assets/images/play.png)
 
 Event Listener checks to see if the rhythm matches with the command users typed, and update the motion of the dancers on the right.  
-``` javascript document.addEventListener("keydown", (e) => {
-      e.preventDefault();
-      if (e.keyCode === 65) {
-          command.pressedA = true;
-          dancer.moveA();
-        } else if (e.keyCode === 83) {
-          command.pressedS = true;
-          dancer.moveS();
-        } else if (e.keyCode === 68) {
-          command.pressedD = true;
-          dancer.moveD();
-        } else if (e.keyCode === 70) {
-          command.pressedF = true;
-          dancer.moveF();
-        }
-    });
+```javascript type_dance.js
+document.addEventListener("keydown", (e) => {
+  e.preventDefault();
+  if (e.keyCode === 65) {
+      command.pressedA = true;
+      dancer.moveA();
+    } else if (e.keyCode === 83) {
+      command.pressedS = true;
+      dancer.moveS();
+    } else if (e.keyCode === 68) {
+      command.pressedD = true;
+      dancer.moveD();
+    } else if (e.keyCode === 70) {
+      command.pressedF = true;
+      dancer.moveF();
+    }
+});
 ```
 
 ### Future Implementation
