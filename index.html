@@ -14,13 +14,31 @@
       </div>
       <div id='main-container'>
         <div id='main-left'>
-          <canvas id='move-command-canvas'></canvas>
+          <div id='intro-container'>
+            <section id='intro'>INTRODUCTION</section>
+            <section id='intro-item'>Type keys when the cursors hit the panel</section>
+            <section id='intro-item'>GOAL: 100 POINTS</section>
+            <section id='intro-item'>LIFE GAUGE: 10</section>
+            <section id='intro-item'><img id='intro-img' src='https://res.cloudinary.com/hobara/image/upload/c_scale,h_99,w_100/v1501738221/ddr_copy_3_wtrb4o.jpg' /> Press A </section>
+            <section id='intro-item'><img id='intro-img' src='https://res.cloudinary.com/hobara/image/upload/c_scale,h_99,w_100/v1501738285/ddr_copy_2_mw0shz.jpg' /> Press S </section>
+            <section id='intro-item'><img id='intro-img' src='https://res.cloudinary.com/hobara/image/upload/c_scale,h_99,w_100/v1501738351/ddr_copy_rmohsq.jpg' /> Press D </section>
+            <section id='intro-item'><img id='intro-img' src='https://res.cloudinary.com/hobara/image/upload/c_scale,h_99,w_100/v1501738412/ddr_p482ub.jpg' /> Press F </section>
+            <button id="start" name="button">Start</button>
+          </div>
+          <canvas id='move-command-canvas'>
+          </canvas>
+          <audio id='audio' controls="controls">
+            <source src="https://res.cloudinary.com/hobara/video/upload/v1501820805/Atomospheric_-_Atomospheric_jzeqp0.mp3" />
+          </audio>
         </div>
         <div id='main-right'>
           <canvas id='dance-board-canvas' width='600px', height='600px'></canvas>
         </div>
       </div>
     </div>
-     <script type="text/javascript" src='./lib/bundle.js'></script>
+    <div id='footer-container'>
+
+    </div>
+    <script type="text/javascript" src='./lib/bundle.js'></script>
   </body>
 </html>
